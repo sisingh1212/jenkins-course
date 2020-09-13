@@ -9,7 +9,7 @@ pipeline{
         build='fff'
     }
     stages{
-        stage ('checkout') {
+        stage ('checkoutn') {
             steps {
                 checkout scm
             }
