@@ -4,17 +4,16 @@
 */
 pipeline{
     agent any
-    options{}
     environment{
-        projectName= 
-        build=
+        projectName= 'gg'
+        build='fff'
     }
     stages{
-        stage ('checkout'){
-            steps{
+        stage ('checkout') {
+            steps {
                 checkout scm
             }
         }
-    }
     
+    }
 }
